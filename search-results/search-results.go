@@ -5,7 +5,7 @@ import (
 )
 
 type SearchResults struct {
-	ready   bool
+	Ready   bool
 	Query   string
 	Results []Result
 }
